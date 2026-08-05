@@ -54,7 +54,7 @@ input,textarea{outline:none}
 <div id="root"></div>
 <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/@babel/standalone@7/babel.min.js"></script>
 <script type="text/babel" data-presets="react">
 const CFG={"slug": "previsao-demanda-campanha", "titulo": "Previsão de Demanda", "vertical": "Marketing", "descricao": "Previsão de demanda de produtos para campanhas com ML. Antecipa picos, evita rupturas e otimiza estoque promocional por SKU e região.", "ia": ["ML", "Time Series", "Demand Forecasting"], "demo": "forecast", "fonte": "Vendas + sazonalidade", "fonteUrl": "https://www.gov.br/mdic", "kpis": [{"label": "MAPE", "value": "6.2%", "delta": "-3%"}, {"label": "Ruptura", "value": "-31%", "delta": ""}, {"label": "SKUs", "value": "2.4M", "delta": ""}, {"label": "Acerto pico", "value": "91%", "delta": ""}], "chartType": "line", "chartLabel": "Demanda Projetada", "series": [53.1, 44.0, 43.8, 45.4, 41.4, 47.8, 55.9, 56.7, 64.9, 63.6, 67.9, 69.9, 61.8, 60.8, 60.0, 52.4, 55.1, 60.2, 59.4, 67.9, 76.6, 76.3, 82.0, 85.3], "features": ["Previsão por SKU e região", "Eventos brasileiros (Black Friday)", "Detecção de picos", "Otimização de estoque promo"], "color": "#ec4899", "icon": "📣", "portfolioUrl": "https://jhondados.github.io/portfolio", "githubUser": "jhondados"};
 const {useState,useEffect,useRef,useMemo}=React;
